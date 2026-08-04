@@ -2,7 +2,12 @@
 
 In this project we attempt to compare classical statistical models (ARIMA/SARIMAX) against recurrent deep learning models (LSTM) across two data regimes — **stationary/cyclical** and **non-stationary/contextual** — to understand *when and why* each paradigm succeeds or fails, rather than simply ranking models by accuracy.
 
+>[The Whitepaper](whitepaper.pdf)
+
 ---
+
+## Motivation
+Traditional statistical models such as ARIMA and SARIMA have long been used for forecasting but often struggle with the nonlinear, high-dimensional, and large-scale nature of modern time series data. Recent advances in deep learning have enabled models to learn complex temporal patterns directly from data, leading to significant improvements in forecasting performance across a wide range of applications.
 
 ## Objective
 Our main objectives were:
@@ -45,3 +50,24 @@ Given that each paradigm fails in a distinct, mechanistically explainable way (A
 2. Train an LSTM on the *residuals* to capture remaining nonlinear structure
 3. Combine both components for the final forecast
 
+## Datasets
+The datasets used in this project are:
+1. [Bike Sharing Dataset](Bike-sharing-dataset.csv)
+2. [Champagne Sales Dataset](perrin-freres-monthly-champagne.csv)
+
+## Installation
+Clone the repository:
+```bash
+git clone https://github.com/hex-32/KDAG_Whitepaper_Group_7-Time-series-Forecasting-by-DL-Models.git
+```
+To run the code, you will need to install the following dependencies:
+```bash
+pip install -r requirements.txt
+```
+## Run the Pipelines
+Then run the main script:
+```bash
+python ARIMAX_bikesharing_pipeline.py # Run ARIMAX pipeline
+python LSTM_bikesharing_pipeline.py   # Run LSTM pipeline
+python SARIMA_sales_pipeline.py      # Run SARIMA pipeline
+```
