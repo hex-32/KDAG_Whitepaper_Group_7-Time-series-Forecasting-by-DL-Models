@@ -4,8 +4,6 @@ In this project we attempt to compare classical statistical models (ARIMA/SARIMA
 
 >[The Whitepaper](Whitepaper.pdf)
 
----
-
 ## Motivation
 Traditional statistical models such as ARIMA and SARIMA have long been used for forecasting but often struggle with the nonlinear, high-dimensional, and large-scale nature of modern time series data. Recent advances in deep learning have enabled models to learn complex temporal patterns directly from data, leading to significant improvements in forecasting performance across a wide range of applications.
 
