@@ -52,7 +52,7 @@ Given that each paradigm fails in a distinct, mechanistically explainable way (A
 
 ## Datasets
 The datasets used in this project are:
-1. [Bike Sharing Dataset](Bike-sharing-dataset.csv)
+1. [Bike Sharing Dataset](Bike_sharing_dataset.csv)
 2. [Champagne Sales Dataset](perrin-freres-monthly-champagne.csv)
 
 ## Installation
