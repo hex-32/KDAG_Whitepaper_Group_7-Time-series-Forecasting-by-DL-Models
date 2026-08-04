@@ -2,7 +2,7 @@
 
 In this project we attempt to compare classical statistical models (ARIMA/SARIMAX) against recurrent deep learning models (LSTM) across two data regimes — **stationary/cyclical** and **non-stationary/contextual** — to understand *when and why* each paradigm succeeds or fails, rather than simply ranking models by accuracy.
 
->[The Whitepaper](whitepaper.pdf)
+>[The Whitepaper](Whitepaper.pdf)
 
 ---
 
