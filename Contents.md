@@ -1,13 +1,13 @@
 # Table of Contents
 ## [Abstract](./Whitepaper.md)
 
-## Introduction
+## [Introduction](./Chapters/Introduction.md)
     2.1 Motivation
     2.2 Importance of Time Series Forecasting
     2.3 Scope and Objectives
     2.4 Organization of the Whitepaper
 
-## Fundamentals of Time Series Forecasting
+## [Fundamentals of Time Series Forecasting](./Chapters/Fundamentals.md)
     3.1 What is a Time Series?
     3.2 Components of a Time Series
     3.3 Types of Forecasting Tasks
@@ -15,7 +15,7 @@
     3.5 Data Preprocessing
     3.6 Evaluation Metrics
 
-## Evolution of Time Series Forecasting
+## [Evolution of Time Series Forecasting](./Chapters/Evolution.md)
     4.1 Statistical Methods
         *AR
         *MA
